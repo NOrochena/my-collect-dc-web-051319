@@ -5,5 +5,6 @@ def my_collect(arr)
     arr2.push(yield(arr[tick]))
     tick += 1
   end
+  arr2
 end
 
