@@ -1,8 +1,8 @@
 def my_collect(arr)
   tick = 0
-  
+  arr2 = []
   while tick < arr.length
-    yield arr[tick]
+    arr2.push(yield(arr[tick]))
     tick += 1
   end
 end
